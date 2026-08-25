@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Mangalyaan mission animation flow</title>
+  <desc id="desc">A visual flow from launch through Earth orbit and Mars orbit to mission success.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080d2b"/><stop offset="1" stop-color="#172d59"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8a2b"/><stop offset="0.52" stop-color="#57b7ff"/><stop offset="1" stop-color="#36e286"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
+  <g fill="#fff" opacity=".8"><circle cx="74" cy="65" r="2"/><circle cx="182" cy="125" r="2"/><circle cx="346" cy="52" r="2"/><circle cx="536" cy="92" r="2"/><circle cx="760" cy="48" r="2"/><circle cx="1030" cy="94" r="2"/><circle cx="1135" cy="45" r="2"/></g>
+  <text x="52" y="55" fill="#ffe16b" font-family="Arial,sans-serif" font-size="28" font-weight="700">MANGALYAAN MISSION FLOW</text>
+  <text x="53" y="84" fill="#a9c4e8" font-family="Arial,sans-serif" font-size="15">A five-minute educational visualization of India's Mars Orbiter Mission</text>
+  <path d="M145 220 C300 130 415 310 570 220 S840 120 1015 220" fill="none" stroke="#0a142d" stroke-width="18" opacity=".7"/>
+  <path d="M145 220 C300 130 415 310 570 220 S840 120 1015 220" fill="none" stroke="url(#path)" stroke-width="5"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <circle cx="145" cy="220" r="42" fill="#ef752d" stroke="#ffbd57" stroke-width="4"/>
+    <text x="145" y="216" fill="#fff" font-size="16" font-weight="700">LAUNCH</text><text x="145" y="239" fill="#ffe8c1" font-size="13">PSLV-C25</text>
+    <circle cx="385" cy="220" r="42" fill="#2962d8" stroke="#72b8ff" stroke-width="4"/>
+    <text x="385" y="216" fill="#fff" font-size="16" font-weight="700">EARTH</text><text x="385" y="239" fill="#d5e8ff" font-size="13">Orbit raising</text>
+    <circle cx="630" cy="220" r="42" fill="#1a233e" stroke="#57b7ff" stroke-width="4"/>
+    <text x="630" y="216" fill="#fff" font-size="15" font-weight="700">TMI</text><text x="630" y="239" fill="#d5e8ff" font-size="13">Gravity assist</text>
+    <circle cx="860" cy="220" r="42" fill="#d45d25" stroke="#ff9b4c" stroke-width="4"/>
+    <text x="860" y="216" fill="#fff" font-size="16" font-weight="700">MARS</text><text x="860" y="239" fill="#ffe0c4" font-size="13">Orbit insertion</text>
+    <circle cx="1045" cy="220" r="42" fill="#1d9b58" stroke="#55f09a" stroke-width="4"/>
+    <text x="1045" y="216" fill="#fff" font-size="14" font-weight="700">SUCCESS</text><text x="1045" y="239" fill="#d5ffe5" font-size="13">Science &amp; data</text>
+  </g>
+  <g fill="#a9c4e8" font-family="Arial,sans-serif" font-size="14" text-anchor="middle">
+    <text x="145" y="330">0:00</text><text x="385" y="330">1:00</text><text x="630" y="330">2:00</text><text x="860" y="330">2:30</text><text x="1045" y="330">4:30</text>
+  </g>
+  <text x="600" y="382" fill="#d6e5ff" font-family="Arial,sans-serif" font-size="15" text-anchor="middle">Launch → atmospheric ascent → stage separation → transfer → Mars science mission</text>
+</svg>
